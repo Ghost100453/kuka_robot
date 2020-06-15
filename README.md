@@ -109,6 +109,18 @@ mpirun -np 6 python train.py --env-name reach
 python demo.py --env-name reach
 ```
 
+调用blockreach模型
+
+```python
+python demo.py --env-name blockreach_her
+```
+
+调用有三个障碍物的reach环境，默认的障碍物数量为3，如果数字不对，会提示模型不匹配，输入不匹配，因为observation会加入障碍物的位置信息，因此observation的长度与障碍物数量有关
+
+```python
+python demo.py --env-name obreach3_her --obs-num 3
+```
+
 
 
 环境调用代码，--env-name参数调用对应的环境，reach_her和reach， reach*都是调用reach环境 
