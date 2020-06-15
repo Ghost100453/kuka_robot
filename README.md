@@ -73,7 +73,7 @@ conda env create -f freeze.yml
 conda activate pytorch
 ```
 
-![1592207076488](/tmp/1592207076488.png)
+![1592207076488](./1592207076488.png)
 
 ## 训练
 
@@ -99,7 +99,7 @@ mpirun -np 6 python train.py --env-name reach
 
 如图，可以输出，存在一定问题（过了很久不输出，一段时间后大量输出，不清楚原因）
 
-![1592211686927](/tmp/1592211686927.png)
+![1592211686927](./1592211686927.png)
 
 训练完之后的模型会保存在文件夹`saved_models`下
 
