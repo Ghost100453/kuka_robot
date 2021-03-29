@@ -22,7 +22,7 @@ ptyprocess==0.6.0
 pybullet==2.8.1
 pycparser==2.20
 pyglet==1.5.0
-Pygments==2.6.1
+Pygments==2.7.4
 python-dateutil==2.8.1
 pytz==2020.1
 scipy==1.4.1
